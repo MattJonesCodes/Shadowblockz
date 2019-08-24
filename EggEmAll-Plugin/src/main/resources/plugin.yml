@@ -1,0 +1,9 @@
+name: Egg-Em-All
+version: 0.1
+main: com.shadowblockz.eggemall.Main
+
+commands:
+    Queue:
+        description: Join the queue
+
+depend: [Vault, PlaceholderAPI, NametagEdit]

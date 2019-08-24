@@ -1,0 +1,12 @@
+### MySQL Server Settings ###
+Host: 127.0.0.1  # The IP Address or HostName of the MySql server.
+Port: 3307  # The port of the MySql Server.
+Database: eggemall  # The database for the game.
+Username: user  # The username for the MySql Server.
+Password: password  # The password for the MySql Server.
+
+### Game Settings ###
+MinPlayers: 2  # The minimum amount of players per game.
+MaxPlayers: 8  # The maximum amount of players per game.
+ScoreCap: 20  # The amount of points required to win.
+GameLengthSec: 600  # The length of each game in seconds.
