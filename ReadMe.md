@@ -1,4 +1,7 @@
-# Shadowblockz
+# Shadowblockz Repository
+This repository contains an archive of plugins I made for the Shadowblockz Minecraft Server, along with a few images as shown below.
+
+# Shadowblockz History
 
 I was the owner & developer of Shadowblockz for six years. Shadowblockz was a Minecraft server which launched on November 26th 2011. It Started out as a small 16 player server, but then quickly expanding into a network of multiple servers, each offering a different unique gameplay experience. Over the course of it's life, it peaked at 250 conturrent players and 120,000+ unique logins.
 <br><br>
