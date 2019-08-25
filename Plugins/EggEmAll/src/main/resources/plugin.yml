@@ -1,9 +1,13 @@
 name: Egg-Em-All
+description: A Shadowblockz MiniGame about throwing exploding eggs at eachother
 version: 0.1
+author: MattJonesCodes
+website: MattJones.Codes
 main: com.shadowblockz.eggemall.Main
 
 commands:
     Queue:
         description: Join the queue
+        aliases: q
 
 depend: [Vault, PlaceholderAPI, NametagEdit]
