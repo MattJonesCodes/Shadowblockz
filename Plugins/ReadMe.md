@@ -1,1 +1,1 @@
-The /Plugins folder of this repository shall contain all the custom plugins developed for the Shadowblockz Minecraft Server.
+The /Plugins folder of this repository shall contain the source code of all the custom plugins developed for the Shadowblockz Minecraft Server. These plugins are written in Java, and use Maven for their dependancies.
