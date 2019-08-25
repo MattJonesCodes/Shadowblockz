@@ -1,6 +1,6 @@
 # Shadowblockz Repository
 This repository contains an archive of various content from the Shadowblockz Minecraft server.
-* /Plugins/ - Contains the Source Code of custom plugins I made.
+* /Plugins/ - Contains the source code of custom plugins I made.
 * /Images/ - Contains a few images used in the section below.
 
 # Wiki
