@@ -15,26 +15,26 @@ public class EndGameCooldownTimer
     }
     
     public void StartTimer()
-	{
-    	BukkitScheduler scheduler = Bukkit.getServer().getScheduler();
+    {
+        BukkitScheduler scheduler = Bukkit.getServer().getScheduler();
         taskID = scheduler.scheduleSyncRepeatingTask(Main.plugin, new Runnable()
-		{
+        {
             @Override
             public void run()
-			{
-            	if(time > 0)
-            		time--;
-            	else
-            	{
-            		StopTimer();
-            		Main.gameManager.EndGame();
-            	}
+            {
+                if(time > 0)
+                    time--;
+                else
+                {
+                    StopTimer();
+                    Main.gameManager.EndGame();
+                }
             }
         }, 20L, 20L);  
     }
     
     public void StopTimer()
-	{
+    {
         Bukkit.getScheduler().cancelTask(taskID);
     }
 }
